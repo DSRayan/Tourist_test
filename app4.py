@@ -7,7 +7,7 @@ import gdown
 
 @st.cache_data
 def download_and_load_model():
-    file_id = "1Oip1pPt4DF5Yy6z8V4G6iXA4-uRLjqhb"
+    file_id = "1fTZrj0iYuG7NEhDHu2WYC_isDjPwhdTW"
     url = f"https://drive.google.com/uc?id={file_id}"
     output = "random_forest.pkl"
 
